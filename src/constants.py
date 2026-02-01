@@ -5,9 +5,9 @@ from src.folderconstants import *
 lm_d = {
 		'SMD': [(0.99, 1)],
 		'SWaT': [(0.95, 1)],
-		'SMAP': [(0.923, 1)],
-		'MSL': [(0.986, 1)],
-		'MIT-BIH': [(0.913, 1)],
+		'SMAP': [(0.92, 1)],
+		'MSL': [(0.98, 1)],
+		'MIT-BIH': [(0.92, 1)],
 	}
 lm = lm_d[args.dataset][0]
 
